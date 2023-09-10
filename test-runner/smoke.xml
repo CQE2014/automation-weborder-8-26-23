@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SMOKE TEST SUITE" thread-count="1" parallel="methods">
+    <test name="SMOKE TESTS">
+        <classes>
+            <class name="com.academy.techcenture.end2end.LoginPagePositiveTest"></class>
+
+        </classes>
+    </test>
+</suite>

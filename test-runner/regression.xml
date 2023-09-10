@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="REGRESSION TEST SUITE" thread-count="1" parallel="methods">
+    <test name="REGRESSION TESTS">
+        <classes>
+
+
+            <class name="com.academy.techcenture.end2end.LoginPagePositiveTest"></class>
+            <class name="com.academy.techcenture.end2end.LoginPageNegativeTest"></class>
+            <class name="com.academy.techcenture.end2end.ListOfProductsTest"></class>
+            <class name="com.academy.techcenture.end2end.ListOfAllOrdersPageTest"></class>
+            <class name="com.academy.techcenture.end2end.OrderTest"></class>
+
+
+
+        </classes>
+    </test>
+</suite>
