@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import com.academy.techcenture.config.ConfigureReader.*;
+
 import java.time.Duration;
 
 public class Driver {
@@ -55,7 +55,6 @@ public class Driver {
             driver = null;
         }
     }
-
 }
 
 
